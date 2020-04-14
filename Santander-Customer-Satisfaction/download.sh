@@ -2,6 +2,8 @@
 
 kaggle competitions download -c santander-customer-satisfaction
 
-mv *.zip input
+unzip *.zip
 
-unzip input/*.zip
+mv *.csv input
+
+rm *.zip
